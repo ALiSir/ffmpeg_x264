@@ -1,0 +1,1 @@
+#ifndef __THREADX_H__#define __THREADX_H__#include <pthread.h>#include <sys/types.h>#ifdef __cplusplusextern "C"{#endiftypedef struct event{    int flag;//确保信号不丢失    pthread_mutex_t mutex;//条件锁    pthread_cond_t cond;}event_t;#ifdef __cplusplus}#endif#endif

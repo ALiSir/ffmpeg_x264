@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "pullstream.h": "c",
+        "avcodec.h": "c",
+        "pixfmt.h": "c",
+        "jni.h": "c",
+        "imgutils.h": "c",
+        "avutil.h": "c",
+        "xstring": "c",
+        "xutility": "c",
+        "x264.h": "c",
+        "initializer_list": "c",
+        "type_traits": "c",
+        "xtree": "c"
+    }
+}
